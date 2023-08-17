@@ -90,7 +90,7 @@ class RabbitMqSupervisor
         $this->rpcServers = $rpcServers;
         $this->config = $config;
         $this->sockFilePermissions = $sockFilePermissions;
-        $this->rootDir = dirname($kernelRootDir);
+        $this->rootDir = $kernelRootDir;
         $this->environment = $environment;
     }
 
